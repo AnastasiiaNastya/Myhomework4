@@ -345,9 +345,22 @@ a{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
+.social-list{
+    display: flex;
+}
+
+.social-item{
+    width: 44px;
+    height: 44px;
+}
+
+.social-link{
+    /* background-color:var(--adress-text-color) ; */
+    background-color: red;
+}
 
   /* button-filter */
 
