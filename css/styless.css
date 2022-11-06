@@ -249,6 +249,16 @@ a{
     width: 270px;
 }
 
+.icon-group{
+    background-color: var(--bg-team-color);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  .feautures-title{
     color: var(--title-text-color);
     line-height: 1.14;
