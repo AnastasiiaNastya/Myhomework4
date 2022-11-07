@@ -590,3 +590,55 @@ margin-bottom: 9px;
 .address-tel:focus{
     color: var(--accent-color);
 }
+
+
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--adress-text-color);
+    margin-bottom: 20px;
+
+}
+
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+
+.footer-item:last-child{
+margin-right: 0;
+}
+
+
+.footer-link{
+    background-color:var(--adress-text-color) ;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-color);
+}
+
+.footer-icon{
+fill: currentColor;
+}
+
+
+.footer-link:hover,
+.footer-link:focus{
+    background-color: var(--accent-color);
+    color:var(--adress-text-color);
+}
