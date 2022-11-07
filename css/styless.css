@@ -591,9 +591,18 @@ margin-bottom: 9px;
 }
 
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+
+.adress-group{
+    margin-right: 70px;
+}
+
 .footer-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -627,7 +636,7 @@ margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--icon-color);
+    color:var(--adress-text-color);
 }
 
 .footer-icon{
@@ -638,5 +647,4 @@ fill: currentColor;
 .footer-link:hover,
 .footer-link:focus{
     background-color: var(--accent-color);
-    color:var(--adress-text-color);
 }
